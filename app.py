@@ -12,8 +12,7 @@ load_dotenv()
 #configuring API key
 genai.configure(api_key=os.getenv('API_KEY'))
 
-#
-def get_response(uploaded_image, user_question):
+def get_response(uploaded_image, user_question='describe the contents of image'):
     """
     this method takes an image and and user asked question and returns the response
     :param uploaded_image: user uploaded image
