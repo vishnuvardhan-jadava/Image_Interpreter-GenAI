@@ -1,0 +1,4 @@
+streamlit
+gemini.generativeai
+PIL
+python-dotenv
